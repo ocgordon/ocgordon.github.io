@@ -35,12 +35,6 @@ a {
   color: #85ad90;
 }
 
-#header h1 {
-  display: inline-block;
-  line-height: 80px;
-  vertical-align: middle;
-}
-
 #self {
   display: block;
   height: 200px;
