@@ -1,0 +1,89 @@
+/* Global Settings */
+
+body {
+  margin: 5%;
+  background-color: #ecebeb;
+  font-family: 'Source Sans Pro', sans-serif;
+  width: 700px;
+  margin: 0 auto;
+  position: relative;
+  font-size: 12px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  color: #85ad90;
+}
+
+/* Fixed sidebar */
+.sidebar {
+  width: 200px;
+  padding: 10px;
+  margin-top: 10px;
+  background: transparent;
+  position: fixed;
+}
+
+#header {
+  height: 80px;
+  line-height: 80px;
+  vertical-align: middle;
+  margin-bottom: 30px;
+  color: #85ad90;
+}
+
+#header h1 {
+  display: inline-block;
+  line-height: 80px;
+  vertical-align: middle;
+}
+
+#self {
+  display: block;
+  height: 200px;
+  width: 200px;
+  margin: 30px auto;
+  border-radius: 50%;
+}
+
+.sidebar-links {
+  list-style-type: none;
+  padding-left: 0;
+  background-color: #ecebeb;
+  border-radius: 2px;
+  overflow: hidden;
+}
+.sidebar-link {
+  font-size: 0.83em;
+  color: #85ad90;
+  background-color: #ecebeb;
+  display: block;
+  padding: 0.6em;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(#000000, 0.2);
+  word-break: break-word;
+}
+
+/* Main column */
+.main {
+  float: right;
+  width: 430px;
+  margin-top: 20px;
+}
+
+/* Column left styling */
+
+#footer {
+  position: fixed;
+  bottom: 3px;
+  right: 3px;
+  text-align: right;
+}
+
+#footer p {
+  margin: 0px;
+  font-size: smaller;
+}
